@@ -1,4 +1,5 @@
-with open('./fruit_transaction.txt','r') as file:
+with open("fruit_transactions.txt","r+") as file:
     data = file.readlines()
-    
-print(data)
+
+    length = len(data)
+    print(f'the length of data is {length}')

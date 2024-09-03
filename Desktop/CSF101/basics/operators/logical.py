@@ -8,3 +8,7 @@ print(f"x or y: {x or y}")
 
 print(f"not x: {not x}")
 print(f"not y: {not y}")
+ 
+ r, x, y
+z = 2*x*y
+print(z)
